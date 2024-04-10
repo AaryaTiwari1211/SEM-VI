@@ -1,0 +1,82 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Software Requirements Specification (SRS)\\for Remote Wildlife Monitoring and Conservation Application}
+\author{ Dhairya Satra - 16010421091\\Aarya Tiwari - 16010421119}
+\date{31 january 2024}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\subsection{Product Overview}
+The Remote Wildlife Monitoring and Conservation Application is designed to address the increasing threats to wildlife habitats, biodiversity loss, and illegal activities. The application leverages technology, including drones, cameras, sensors, and data analytics, to provide an integrated solution for wildlife monitoring, conservation management, research, education, and stakeholder engagement. This SRS outlines the specific requirements for the development of the application.
+
+\section{Specific Requirements}
+
+\subsection{External Interface Requirements}
+
+\subsubsection{User Interfaces}
+a) The user interface shall allow users to display live drone footage, images, and sensor readings from selected wildlife habitats, protected areas, and critical zones.\\
+b) Users should be able to navigate, zoom, pan, and interact with aerial maps, layers, markers, and annotations.
+
+\subsubsection{Hardware Interfaces}
+This application does not have specific hardware requirements.
+
+\subsubsection{Software Interfaces}
+The application shall interface with drone control software for live footage and sensor data.\\
+The application shall integrate with external databases for storing and retrieving historical data.\\
+It shall be compatible with standard Geographic Information Systems (GIS) for spatial data management.
+
+\subsubsection{Communications Protocols}
+The application shall support local network protocols for seamless communication with drones and external databases.
+
+\subsection{Software Product Features}
+
+\subsubsection{Essential Features}
+1. The system shall display live drone footage, images, and sensor readings.\\
+2. Users shall be able to navigate and interact with aerial maps.\\
+3. Historical data, trends, patterns, alerts, and notifications shall be accessible.\\
+4. Users shall configure settings, filters, and preferences for data visualization.
+
+\subsubsection{Important Features}
+1. The system shall provide data analysis and visualization functionalities.\\
+2. Alerts shall be generated for habitat changes, wildlife sightings, and environmental threats.\\
+3. The application shall support collaborative data sharing and reporting.
+
+\subsubsection{Desirable Features}
+1. Integration with external conservation databases for comprehensive data analysis.\\
+2. Support for augmented reality features for enhanced data visualization.
+
+\subsection{Software System Attributes}
+
+\subsubsection{Reliability}
+The application shall have a reliability rate of 99.9\%, measured by Mean Time To Failure (MTTF).
+
+\subsubsection{Availability}
+The system shall incorporate check pointing, recovery, and restart mechanisms to ensure 24/7 availability.
+
+\subsubsection{Security}
+The application shall employ cryptographic techniques to protect data.\\
+Access to critical modules and data communication shall be restricted based on user roles.
+
+\subsubsection{Maintainability}
+The software shall be designed with modular structures to facilitate ease of maintenance.\\
+Regular updates and patches shall be provided for continuous improvement.
+
+\subsubsection{Portability}
+The application shall be designed for portability across different operating systems.
+
+\subsubsection{Performance}
+The system shall support a minimum of 100 simultaneous users.\\
+Dynamic requirements shall include a minimum of 50 transactions per second for normal workload conditions.
+
+\subsection{Database Requirements}
+The application shall use a relational database to store information related to habitat monitoring, wildlife sightings, and environmental assessments.\\
+Data entities and their relationships shall be defined to maintain integrity.
+
+This Software Requirements Specification outlines the necessary details for the development of the Remote Wildlife Monitoring and Conservation Application. It provides a foundation for system design, development, and testing to ensure the successful implementation of the proposed solution.
+
+\end{document}
